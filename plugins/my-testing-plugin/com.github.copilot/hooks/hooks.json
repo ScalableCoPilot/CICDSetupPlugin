@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "bash ${PLUGIN_ROOT}/scripts/validate-tests.sh",
+        "bash": "bash \"$PLUGIN_ROOT/scripts/validate-tests.sh\"",
+        "powershell": "& \"$env:PLUGIN_ROOT/scripts/validate-tests.ps1\"",
+        "windows": "& \"$env:PLUGIN_ROOT/scripts/validate-tests.ps1\"",
+        "timeout": 10
+      }
+    ]
+  }
+}

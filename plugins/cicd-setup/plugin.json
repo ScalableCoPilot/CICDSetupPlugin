@@ -1,0 +1,21 @@
+{
+  "name": "cicd-setup",
+  "description": "Plan and configure secure GitHub Actions CI/CD workflows for Azure deployments.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Dinesh Gaikwad",
+    "url": "https://github.com/ScalableCoPilot"
+  },
+  "homepage": "https://github.com/ScalableCoPilot/CICDSetupPlugin",
+  "repository": "https://github.com/ScalableCoPilot/CICDSetupPlugin",
+  "license": "MIT",
+  "keywords": [
+    "github-actions",
+    "azure",
+    "ci-cd",
+    "deployment"
+  ],
+  "agents": [
+    "./agents/cicd-setup.agent.md"
+  ]
+}
